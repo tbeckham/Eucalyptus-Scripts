@@ -183,7 +183,7 @@ then
 
 else
 	echo "\nNo '$EUCALYPTUS' setting found. Cannot configure eucalyptus to use new cert automatically.\n"
-	echo "Please run 'euca-modify-property -p boostrap.webservices.ssl.server_alias=$cert_alias\n"
+	echo "Please run 'euca-modify-property -p bootstrap.webservices.ssl.server_alias=$cert_alias\n"
 	echo "Then run: 'euca-modify-property -p bootstrap.webservices.ssl.server_password=$export_pass\n"
 fi
 
